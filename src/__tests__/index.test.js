@@ -11,6 +11,5 @@ test(('function orderByProps'), () => {
     { key: 'level', value: 2 },
     { key: 'name', value: 'мечник' },
   ];
-    // console.log(orderByProps(obj, ["defence", 'health']));
   expect(orderByProps(obj, ['defence', 'health'])).toEqual(expected);
 });
